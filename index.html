@@ -5,26 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucky Birthdate</title>
+
+    <link rel="stylesheet" href="/style.css">
+
 </head>
 <body>
+    <div class="container">
+        <h1>Lucky Birth-date? </h1>
 
-    <h1>is your birthday lucky?</h1>
+        <p>What do you think is your birthdate lucky? find out by typing details below. This is just for fun and not at
+            all real.</p>
+
+        <section class="section-date">
+            <label for="date-of-birth">Enter your date of Birth:</label>
+            <input id="date-of-birth" type="date" />
+        </section>
+
+        <section class="section-lucky">
+            <label for="lucky-number">Enter your lucky number:</label>
+            <input id="lucky-number" type="number">
+        </section>
+
+        <button id="check-btn">check</button>
 
 
-<label for="date-of-birth">Enter your date of Birth:</label>
-<input id="date-of-birth" type="date" />
+        <div id="output-box"></div>
 
+        <hr>
+        <footer>
+            <a href="">Github</a>
+            <a href="">linkedin</a>
+            <a href="">Twitter</a>
+        </footer>
 
+        <script src="/app.js"></script>
 
-<label for="lucky-number">Enter your lucky number:</label>
-<input id="lucky-number" type="number">
-
-<button id="check-btn">check</button>
-
-
-<div id="output-box"></div>
-
-<script src="app.js" ></script>
+    </div>
 
 </body>
 </html>
