@@ -5,6 +5,14 @@
     --primary-purple: #A21CAF;
 }
 
+.notification{
+    background-color: #A5B4FC;
+    text-align: center;
+    width: 28%;
+    padding: 0.3rem;
+    margin: auto;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -53,7 +61,7 @@ input {
     margin: 1rem;
 }
 
-button {
+#check-btn {
     padding: 0.5rem 2rem;
     background: linear-gradient(90deg, #D97706, #FBBF24);
     color: black;
@@ -63,6 +71,16 @@ button {
     border: none;
     cursor: pointer;
 
+}
+
+.close-btn {
+    border: none;
+    background-color: #A5B4FC;
+    text-decoration: underline;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 28.8%;
 }
 
 #date-of-birth {
