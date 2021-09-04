@@ -8,7 +8,7 @@
 .notification{
     background-color: #A5B4FC;
     text-align: center;
-    width: 28%;
+    width: 31%;
     padding: 0.3rem;
     margin: auto;
 }
@@ -77,10 +77,8 @@ input {
     border: none;
     background-color: #A5B4FC;
     text-decoration: underline;
-    display: block;
-    margin: auto;
     cursor: pointer;
-    width: 28.8%;
+    display: inline;
 }
 
 #date-of-birth {
