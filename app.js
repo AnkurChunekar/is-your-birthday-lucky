@@ -19,7 +19,7 @@ function isYourBirthdateLucky() {
     var result = calculateSum(dob);
     
 
-    if (dob&&result){
+    if (dob && luckyNumber.value !== ""){
     outputBox.style.display = "block";
     if (Number(result) % Number(luckyNumber.value) === 0) {
         outputBox.innerText = "Woah!!, your Birthday is Luckiest.";
