@@ -17,14 +17,15 @@ function isYourBirthdateLucky() {
      var dob = dateOfBirth.value;
      var result = calculateSum(dob);
 
+     outputBox.style.display = "block"; 
+
 if (dateOfBirth.value === "" || luckyNumber.value<=0) {
-    outputBox.style.display = "block"; 
     outputBox.innerText = "please enter valid values in both feilds😕";
 } else {
     if (Number(result) % Number(luckyNumber.value) === 0) {
         outputBox.innerText = "Wow🥳!, your Birthday is Luckiest.";
-
-    } else { outputBox.innerText = "Oops🤷‍♂️! Your birthday is not that lucky!"; }
+    } else { 
+        outputBox.innerText = "Oops🤷‍♂️! Your birthday is not that lucky!"; }
 }
 }
 
